@@ -24,17 +24,12 @@ The model is trained on the [Sonar Dataset](https://archive.ics.uci.edu/ml/datas
 ## 🧠 Model Summary
 
 - Preprocessing: Standardization of features
-- Algorithm: (e.g., Logistic Regression / KNN / SVM / Random Forest – _update this based on your model_)
-- Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
+- Algorithm:  LightGBM Classifier
+- Evaluation Metrics: Accuracy
 
 ## 📈 Results
 
-- **Accuracy:** ~`XX.XX%` _(replace with your model's accuracy)_
+- **Accuracy:** ~`88%` _(replace with your model's accuracy)_
 - **Precision/Recall/F1-score:** Reported in the final evaluation
 
-## 📊 How to Use
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/rock-vs-mine-classification.git
-   cd rock-vs-mine-classification

@@ -1,1 +1,40 @@
-# Class1---Rock-vs-Mine
+# Rock vs Mine Classification Model
+
+This repository contains a machine learning classification model that distinguishes between **rock** and **mine** objects using sonar signal data. This is a classic binary classification problem solved using supervised learning techniques.
+
+## 📌 Project Description
+
+The model is trained on the [Sonar Dataset](https://archive.ics.uci.edu/ml/datasets/connectionist+bench+sonar+mines+vs.+rocks), where each data point represents sonar returns bouncing off a metal cylinder (mine) or a rock at various angles. The objective is to accurately classify these objects.
+
+## 🚀 Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib / Seaborn (for visualization, if used)
+- Jupyter Notebook
+
+## 📂 Dataset
+
+- **Source:** UCI Machine Learning Repository
+- **Features:** 60 numerical features representing sonar signals
+- **Labels:** 'R' (Rock) and 'M' (Mine)
+
+## 🧠 Model Summary
+
+- Preprocessing: Standardization of features
+- Algorithm: (e.g., Logistic Regression / KNN / SVM / Random Forest – _update this based on your model_)
+- Evaluation Metrics: Accuracy, Confusion Matrix, Classification Report
+
+## 📈 Results
+
+- **Accuracy:** ~`XX.XX%` _(replace with your model's accuracy)_
+- **Precision/Recall/F1-score:** Reported in the final evaluation
+
+## 📊 How to Use
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/rock-vs-mine-classification.git
+   cd rock-vs-mine-classification
